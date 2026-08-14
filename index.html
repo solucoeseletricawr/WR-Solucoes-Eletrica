@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WR Soluções Elétricas</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f4f6f8;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #0d233a;
+            color: #fff;
+            padding: 15px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .logo {
+            font-size: 1.1rem;
+            font-weight: bold;
+            color: #ff9900;
+        }
+
+        .btn-whatsapp-header {
+            background-color: #25d366;
+            color: white;
+            padding: 8px 12px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            font-size: 0.85rem;
+        }
+
+        .hero {
+            background: linear-gradient(rgba(13, 35, 58, 0.9), rgba(13, 35, 58, 0.9)), url('https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=800&q=80') center/cover;
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        .hero h1 {
+            font-size: 1.8rem;
+            margin-bottom: 15px;
+            color: #ff9900;
+        }
+
+        .hero p {
+            font-size: 1rem;
+            margin-bottom: 25px;
+        }
+
+        .btn-primary {
+            background-color: #25d366;
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            display: inline-block;
+            font-size: 1rem;
+        }
+
+        .services {
+            padding: 40px 20px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .services h2 {
+            text-align: center;
+            margin-bottom: 25px;
+            color: #0d233a;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 15px;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.08);
+            border-left: 5px solid #ff9900;
+        }
+
+        .card h3 {
+            margin-bottom: 8px;
+            color: #0d233a;
+            font-size: 1.1rem;
+        }
+
+        .contact {
+            background-color: #0d233a;
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        .contact h2 {
+            margin-bottom: 10px;
+        }
+
+        .contact-info {
+            margin: 20px 0;
+            font-size: 1rem;
+        }
+
+        .contact-info p {
+            margin-bottom: 8px;
+        }
+
+        .contact-info a {
+            color: #ff9900;
+            text-decoration: none;
+        }
+
+        .social-buttons {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            max-width: 300px;
+            margin: 25px auto 0 auto;
+        }
+
+        .btn-social {
+            padding: 12px;
+            border-radius: 5px;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            display: block;
+        }
+
+        .btn-instagram {
+            background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+        }
+
+        .btn-facebook {
+            background-color: #1877f2;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #081624;
+            color: #aaa;
+            font-size: 0.8rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">WR Soluções Elétricas</div>
+        <a href="https://wa.me/message/OUWMYE4RF7MNB1" class="btn-whatsapp-header" target="_blank">WhatsApp</a>
+    </header>
+
+    <section class="hero">
+        <h1>WR Soluções Elétricas</h1>
+        <p>Segurança, eficiência e serviços profissionais para sua casa ou empresa.</p>
+        <a href="https://wa.me/message/OUWMYE4RF7MNB1" class="btn-primary" target="_blank">Solicitar Orçamento no WhatsApp</a>
+    </section>
+
+    <section class="services">
+        <h2>Nossos Serviços</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>Instalações & Manutenções</h3>
+                <p>Serviços residenciais, comerciais e industriais executados dentro das normas técnicas.</p>
+            </div>
+            <div class="card">
+                <h3>Quadros de Distribuição</h3>
+                <p>Montagem, organização e diagnóstico de painéis e quadros de energia.</p>
+            </div>
+            <div class="card">
+                <h3>Curto-Circuito & Falhas</h3>
+                <p>Localização rápida e solução de problemas de disjuntores caindo e fiação comprometida.</p>
+            </div>
+            <div class="card">
+                <h3>Iluminação LED</h3>
+                <p>Projetos de iluminação moderna, instalação de pendentes e economia de energia.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact">
+        <h2>Entre em Contato</h2>
+        <p>Atendimento rápido e orçamentos diretos.</p>
+        
+        <div class="contact-info">
+            <p><strong>WhatsApp:</strong> (16) 99236-6589</p>
+            <p><strong>E-mail:</strong> <a href="mailto:solucoeseletricaw@gmail.com">solucoeseletricaw@gmail.com</a></p>
+        </div>
+
+        <div class="social-buttons">
+            <a href="https://wa.me/message/OUWMYE4RF7MNB1" class="btn-primary" target="_blank">Chamar no WhatsApp</a>
+            <a href="https://www.instagram.com/wr.solucoeseletrica?igsh=a251ZzNsYjUyN2Z5" class="btn-social btn-instagram" target="_blank">Siga no Instagram</a>
+            <a href="https://www.facebook.com/share/1HNDSRzFoJ/" class="btn-social btn-facebook" target="_blank">Página no Facebook</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; WR Soluções Elétricas. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
